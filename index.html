@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
     
@@ -105,7 +106,7 @@ updateClock();
 const timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+const deadline = new Date("2025-03-04T13:00:00.000+02:00");
 initializeClock('clockdiv', deadline);
 </script>
 </html>
